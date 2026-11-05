@@ -1,26 +1,26 @@
-name: Zgłoszenie błędu
-description: Błąd dotyczący tego komponentu
+name: Bug report
+description: A bug affecting this component
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: textarea
     id: problem
     attributes:
-      label: Co się dzieje?
-      description: Opisz zaobserwowane zachowanie i oczekiwany rezultat.
+      label: What happened?
+      description: Describe the observed behavior and expected result.
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
-      label: Jak odtworzyć?
+      label: How to reproduce
       placeholder: "1. ..."
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Środowisko i dodatkowy kontekst
-      description: Wersja, logi bez sekretów, zrzuty ekranu i powiązane issue z MooMinds.
+      label: Environment and additional context
+      description: Version, logs without secrets, screenshots, and related MooMinds issues.
     validations:
       required: false
