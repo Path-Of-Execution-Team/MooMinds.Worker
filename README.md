@@ -1,5 +1,5 @@
 # MooMinds.Worker
 
-worker powiadomień e-mail i push projektu MooMinds.
+The worker responsible for MooMinds email and push notifications.
 
-[Backlog produktu i dokumentacja](https://github.com/Path-Of-Execution-Team/MooMinds) znajdują się w repozytorium głównym. W tym repozytorium zgłaszamy błędy dotyczące tego komponentu; powiązane prace produktowe linkujemy z centralnym issue.
+The [product backlog and documentation](https://github.com/Path-Of-Execution-Team/MooMinds) live in the central repository. Report bugs specific to this component here, and link related product work to its central issue.
